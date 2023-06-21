@@ -72,22 +72,80 @@ section {
 
     padding: 100px 200px;
 }
-.mark{
 
-    width: 100%;
-    min-height: 100vh;
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #00009c;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 3px;
+    margin-top: 25px;
+
+
+
+}
+
+.content {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+
+    background-color: #fff;
+    width: 43.25em;
+    box-shadow: 0 5px 25px #00005e;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover {
+
+    transform: scale(1.1);
+}
+
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+
+    color: #00008c;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.LogoA{
+
+    
     display: flex;
     align-items: center;
     background-color: #000000;
+    justify-content:center;
     
 }
-.mark img{
+.logoA p{
 
-    width: 15%;
-
- position: absolute;
- top: 15%; left: 42%;
+    color: #fff;
 }
+.T{
+    color: #fff;
+}
+.LogoA img{
+
+   width: 250px;
+   height: 250px;
+}
+
 
 
 
