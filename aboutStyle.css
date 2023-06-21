@@ -77,7 +77,7 @@ section {
 .title {
     display: flex;
     justify-content: center;
-    color: #00009c;
+    color: #4c46d6;
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 3px;
@@ -95,9 +95,13 @@ section {
     flex-wrap: wrap;
 }
 
+.cards{
+    background-color: #000000;
+}
+
 .card {
 
-    background-color: #fff;
+    background-color: #1c1c1c;
     width: 43.25em;
     box-shadow: 0 5px 25px #00005e;
     border-radius: 10px;
@@ -118,10 +122,14 @@ section {
 
 .info h3 {
 
-    color: #00008c;
+    color: #beccf3;
     font-size: 1.2em;
     font-weight: 700;
     margin: 10px;
+}
+
+.info p{
+    color: #fff;
 }
 
 .LogoA{
@@ -142,7 +150,7 @@ section {
 }
 .LogoA img{
 
-   width: 250px;
+   width: 260px;
    height: 250px;
 }
 
